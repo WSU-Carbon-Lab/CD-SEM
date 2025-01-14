@@ -17,9 +17,7 @@ dependencies = [
   "opencv-python",
 ]
 description = "SEM image analysis"
-license = "GPL-2.0"
 name = "cd_sem"
 readme = "README.md"
-repository = "https://github.com/WSU-Carbon-Lab/CD-SEM"
 requires-python = ">=3.12"
 version = "0.1.1"
