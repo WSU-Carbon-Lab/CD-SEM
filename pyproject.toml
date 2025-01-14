@@ -1,0 +1,17 @@
+[project]
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "scipy",
+  "jupyter",
+  "tk",
+  "tifffile",
+  "scikit-image",
+  "opencv-python",
+]
+description = "SEM image analysis"
+name = "cd_sem"
+platform = "any"
+readme = "README.md"
+requires-python = ">=3.12"
+version = "0.1.0"
