@@ -1,4 +1,9 @@
 [project]
+authors = [
+  {name = "Devin Grabner", email = "devin.grabner@wsu.edu"},
+  {name = "Harlan Heilman", email = "harlan.heilman@wsu.edu"},
+  {name = "Emma Vargo", email = "evargo@lbl.gov"},
+]
 dependencies = [
   "numpy",
   "matplotlib",
@@ -11,7 +16,6 @@ dependencies = [
 ]
 description = "SEM image analysis"
 name = "cd_sem"
-platform = "any"
 readme = "README.md"
 requires-python = ">=3.12"
 version = "0.1.0"
