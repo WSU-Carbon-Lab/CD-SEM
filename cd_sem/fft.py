@@ -1,4 +1,4 @@
-import CD_SEM_tools as tools
+import cd_sem.utils as tools
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import find_peaks

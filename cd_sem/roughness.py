@@ -1,8 +1,7 @@
-import CD_SEM_tools as tools
-import CD_SEM_FFT as FFTcalc
-import CD_SEM_edges as edges
-import CD_SEM_ruffness as ruff
-import CD_SEM_analysis as anlys
+import cd_sem.utils as tools
+import cd_sem.fft as FFTcalc
+import cd_sem.edges as edges
+import cd_sem.analysis as anlys
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.colors import LinearSegmentedColormap
@@ -14,7 +13,7 @@ import numpy as np
 
 class SEMImageDetails:
     def __init__(self):
-        
+
         # These are all of the variable that we need at the end of the analysis
         # Line Edge Roughness  -  LER
         self.LER_edges: None | int = None  # Number of measured edges
@@ -63,4 +62,4 @@ class SEMImageDetails:
         self.BLPA_inline: None | float = None  # nm # In Line
 
     def __call__(self):
-        
+        ...

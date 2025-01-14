@@ -1,7 +1,7 @@
-import CD_SEM_tools as tools
-import CD_SEM_FFT as FFTcalc
-import CD_SEM_edges as edges
-import CD_SEM_analysis as anly
+import cd_sem.utils as tools
+import cd_sem.fft as FFTcalc
+import cd_sem.edges as edges
+import cd_sem.analysis as anly
 
 # import CD_SEM_ruffness as ruff
 # import CD_SEM_analysis as anlys
