@@ -1,19 +1,20 @@
-import cd_sem.utils as tools
-import cd_sem.fft as FFTcalc
-import cd_sem.edges as edges
-import cd_sem.analysis as anly
+from tkinter import filedialog
+from typing import Final
+
+import matplotlib.patches as patches
 
 # import CD_SEM_ruffness as ruff
 # import CD_SEM_analysis as anlys
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-from matplotlib.colors import LinearSegmentedColormap
-from scipy.fftpack import fftshift, fft2
-from skimage import util
 import numpy as np
 import tifffile
-from tkinter import filedialog
-from typing import Final
+from matplotlib.colors import LinearSegmentedColormap
+from scipy.fftpack import fft2, fftshift
+from skimage import util
+
+import cd_sem.edges as edges
+import cd_sem.fft as FFTcalc
+import cd_sem.utils as tools
 
 TAG_NAMES: Final[list[str]] = ["ImageWidth", "ImageLength", "CZ_SEM"]
 PIX_SIZE: Final[str] = "ap_image_pixel_size"
